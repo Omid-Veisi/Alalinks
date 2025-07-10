@@ -1,0 +1,53 @@
+{
+  "name": "alalinks-website",
+  "version": "1.0.0",
+  "description": "Modern, responsive website for AlaLinks - AI-powered educational platform",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed for static site'",
+    "lint": "eslint js/*.js",
+    "format": "prettier --write '**/*.{html,css,js,md}'",
+    "validate": "html-validate index.html",
+    "test": "echo 'No tests specified'",
+    "deploy": "echo 'Deploy to your hosting service'"
+  },
+  "keywords": [
+    "education",
+    "ai",
+    "scholarships",
+    "university",
+    "responsive",
+    "modern",
+    "glass-morphism",
+    "animations",
+    "particles"
+  ],
+  "author": "AlaLinks Team",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alalinks/website.git"
+  },
+  "homepage": "https://alalinks.com",
+  "bugs": {
+    "url": "https://github.com/alalinks/website/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0",
+    "html-validate": "^7.0.0",
+    "live-server": "^1.2.2",
+    "serve": "^14.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+} 
